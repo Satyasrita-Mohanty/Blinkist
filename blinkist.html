@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <title>Blinkist</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     
+      <!-- External css file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+     <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+   
+   <style>
+       /* Header */
+
+         nav{
+            background-color: #000066;
+           height: auto;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 150px;
+         }
+         nav ul li a{
+            color: white;
+            font-size: 20px;
+            }
+       nav .navbar-text{
+           color: #cc0052;
+       }
+       nav ul li a:hover{
+           color:  #cc0052;
+       }
+       
+       .nav > li > a:focus, .nav > li > a:hover {
+            background-color: transparent;
+      }
+       
+       
+       
+         /* play store */
+       
+       #play_store .col-sm-4 i{
+                margin-left: 142px;
+                font-size: 28px;
+                color: #33ff33;
+                margin-top: 10px;
+          }
+       
+       #play_store .col-sm-4{
+              background-image: linear-gradient( #cc0052,#4d001f);
+              border-top-left-radius: 75px;
+                border-bottom-right-radius: 94px;
+           
+       }
+       #play_store .col-sm-4 h3{
+           margin-left: 20px;
+           color: white;
+       }
+       
+       
+              /* learning */
+       #learn #learn_one{
+           margin-top: 120px;
+        
+           
+       }
+       #learn #learn_one button{
+           background-color:#cc0052;
+           border-top-left-radius: 30px;
+           border-bottom-right-radius: 30px;
+           color: white;
+           padding: 13px;
+           font-size: 17px;
+       }
+       #learn #learn_one h1{
+           font-weight: bold;
+       }
+       
+       
+        /*  curious */
+       #curious h2{
+           text-align: center;
+           color: #cc0052;
+           font-weight: bold;
+       }
+       #curious h3{
+           color: blue;
+       } 
+       #curious span{
+           color: #cc0052;
+       }
+       #curious p{
+           font-size: 19px;
+           font-style: italic;
+       }
+       #curious button{
+              background-color:#cc0052;
+           border-top-left-radius: 30px;
+           border-bottom-right-radius: 30px;
+           color: white;
+           padding: 13px;
+           font-size: 17px;
+           font-weight: bold;
+           
+       }
+       
+       
+         /*  join */
+       #join{
+           background-color: #ffccff;
+           text-align: center;
+           
+       }
+       #join h2{
+           color: black;
+           font-weight: bold;
+           font-style: italic;
+       }
+       
+        #join p{
+           color: gray;
+            font-size: 19px;
+       }
+       
+         /* Format */
+       #format h4{
+           color: black;
+           font-weight: bold;
+       }
+       
+       
+         /* explore */
+       #explore img{
+           margin: 10px;
+           height: auto;
+           width: 80%;
+           
+       }
+       
+       #explore span{
+           font-size: 17px;
+          padding: 0px;
+       }
+       #explore h4{
+           color: black;
+       }
+       
+        #explore h5{
+           color: gray;
+       }
+       
+       
+       
+       /* Footer */
+
+       .footer{
+            background-color:  #000066;
+            height: auto;
+        }
+        .footer h3{
+    color: #cc0052;
+    font-weight: bold;
+    
+}
+       
+       .footer p,h4{
+           color: white;
+       }
+    
+    
+    
+    </style>
+     
+      
+      
+   </head>
+   <body>
+   
+    <!-- Header -->
+   
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                  </button>
+                 
+                     
+               </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+             
+              <ul class="nav navbar-nav navbar-left">
+                 <h2 class="navbar-text" style="font-weight: bold;">𝔹𝕝𝕚𝕟𝕜𝕚𝕤𝕥</h2>
+                  <li><a href="#">Login</a></li>
+              </ul>
+              
+        
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                </ul>
+            </div>
+         </div>
+      </nav>
+    <br><br>
+    
+    <!-- learning--> 
+    <div id="learn" class="container">
+       <div class="row">
+           <div class="col-sm-6" id="learn_one">
+              <h1>Fit learning into your life </h1>
+              <p>Blinkist brings you the knowledge from top </p>
+              <p>nonfiction, so you can learn anytime, anywhere. </p>
+              
+              <button type="button">Start free trial</button>
+               
+           </div>
+           
+            <div class="col-sm-6">
+              <img src="images/learning-that-fits-into-your-life-l-9dd09ba2c92082be14fc1415622c8abd8f731eccb913e70616a370c6d9ae131c.png" style="width: 650px">
+               
+           </div>
+           
+       </div>
+        
+    </div>
+    
+    
+    
+         
+            <!-- Fomating --> 
+            <div class="container" id="format" style="margin: 50px;padding: 40px;">
+                  <h2 style="color: #cc0052;font-weight: bold;text-align: center;">ℂ𝕙𝕠𝕠𝕤𝕖 𝕥𝕙𝕖 𝕗𝕠𝕣𝕞𝕒𝕥 𝕥𝕙𝕒𝕥 𝕗𝕚𝕥𝕤 𝕪𝕠𝕦𝕣 𝕝𝕚𝕗𝕖</h2>
+                  <div class="row" style="background-image: linear-gradient(#ccccff, #ff99ff);border-bottom-left-radius: 50px;border-top-right-radius: 50px;">
+                     <div class="col-sm-4">
+                        <img src="images/audiobooks-en-fea85b419b3a5a1d651c728ca54e5a32973c6731b0895e16df2187a4e00ab0fc.png" alt="couple-image" height="150px" width="200px" class="img-rounded">
+                        <br>
+                        <br>
+                        <h4>Dive into audiobooks </h4>
+                        <p>
+                           Go deeper into your favorite topics with full-length audiobooks. 
+                        </p>
+                     </div>
+                     
+                    <div class="col-sm-4">
+                        <img src="images/originals-en-4413215b0b1eea7e1bf57dc9a8118166f12a86a49542f83670152b2e2f0ab5e3.png" alt="couple-image" height="150px" width="200px" class="img-rounded">
+                        <br>
+                        <br>
+                        <h4>Get key insights </h4>
+                        <p>
+                           Read or listen to the key ideas from bestselling nonfiction titles in 15 minutes. 
+                        </p>
+                     </div>
+                     
+                    <div class="col-sm-4">
+                        <img src="images/audiobooks-en-fea85b419b3a5a1d651c728ca54e5a32973c6731b0895e16df2187a4e00ab0fc.png" alt="couple-image" height="150px" width="200px" class="img-rounded">
+                        <br>
+                        <br>
+                        <h4>Enjoy original content </h4>
+                        <p>
+                           Discover new perspectives with exclusive shows and podcasts. 
+                        </p>
+                     </div>
+                      
+                </div>
+            </div>
+  
+    
+    
+        <!-- Curious--> 
+            <div class="container" id="curious">
+               <h2>ℂ𝕦𝕣𝕚𝕠𝕦𝕤? 𝕋𝕣𝕪 𝕚𝕥 𝕗𝕠𝕣 𝕗𝕣𝕖𝕖</h2>
+                <br>
+                 <div class="row">
+                    <div class="col-sm-6">
+                       <h3>Jun 23 </h3>
+                       <p>
+                          Start learning with Blinkist’s entire </p>
+                          <p>library, free for 7 days.</p>
+                       <span style='font-size:70px;'>&#8595;</span>
+                       
+                       <h3>Jun 30 </h3>
+                       <p>
+Free trial ends.</p>
+                       <span style='font-size:70px;'>&#8595;</span>
+                       <p>Continue learning
+with Blinkist!</p>
+                       
+                        
+                        
+                    </div>
+                     <div class="col-sm-6" style="margin-top: 140px;">
+                       <p style="font-weight: bold;">You can try Blinkist for free for 7 days. Don’t worry, if you cancel </p>
+                       <p style="font-weight: bold;">within the trial period you won’t be charged. </p>
+                         <button type="button">Start free trial</button>
+                        
+                    </div>
+                     
+                 </div>
+            </div>
+            
+            
+            
+              
+    
+    <!-- Explore-->
+    <div id="explore" style="text-align: center" class="container">
+       <h1 style="color: #cc0052;">𝔼𝕩𝕡𝕝𝕠𝕣𝕖 𝕝𝕖𝕒𝕕𝕚𝕟𝕘 𝕔𝕒𝕥𝕖𝕘𝕠𝕣𝕚𝕖𝕤</h1>
+       <p>From leadership to psychology, we’ve blinked it for you. Benefit from unlimited access to 27 categories: </p>
+       <div>
+           <span class="label label-warning">Career & Success</span>
+           <span class="label label-warning">Society culture</span>
+           <span class="label label-warning">Sex & relationship</span>
+           <span class="label label-warning">science</span>
+           <span class="label label-warning">Relision</span>
+           <span class="label label-warning">Personal Development</span>
+       </div>
+       <div>
+           <span class="label label-primary">Parenting</span>
+           <span class="label label-primary">Nature & Envirnoment</span>
+           <span class="label label-primary">Motivation & Inspiration</span>
+           <span class="label label-primary">Education</span>
+           <span class="label label-primary">Health</span>
+           <span class="label label-primary">Economics</span>
+       </div>
+       <h2>Top titles in Nature & Environment</h2>
+       <div class="row">
+          <div class="col-sm-4">
+             <img src="images/470,.jpg">
+             <h4>The Uninhabitable Earth</h4>
+             <h5>David Wallace-Wells</h5>
+              
+          </div>
+           <div class="col-sm-4">
+             <img src="images/470.jpg">
+             <h4>The Hidden Life of Trees</h4>
+             <h5>Peter Wohlleben</h5>
+              
+          </div>
+           <div class="col-sm-4">
+             <img src="images/470mm.jpg">
+             <h4>Should We Eat Meat?</h4>
+             <h5>Vaclav Smil</h5>
+              
+          </div>
+            </div>
+          
+          <div class="row">
+               <div class="col-sm-4">
+             <img src="images/h.jpg">
+             <h4>Cat</h4>
+             <h5>Katharine M. Rogers</h5>
+              
+          </div>
+           <div class="col-sm-4">
+             <img src="images/k.jpg">
+             <h4>How Bad Are Bananas?</h4>
+             <h5>Mike Berners-Lee</h5>
+              
+          </div>
+           <div class="col-sm-4">
+             <img src="images/l.jpg">
+             <h4>Salt</h4>
+             <h5>Mark Kurlansky</h5>
+              
+          </div>
+        
+           
+       </div>
+        
+    </div> 
+    
+            
+            
+             <!-- Join-->
+             <div id="join" class="container-fluid">
+                <h2>Join 14 million people in learning </h2>
+                <h2>anywhere, anytime—every day </h2>
+                <p>Become a member of our global community and be a part of the </p>
+                <p>learning revolution. </p>
+                 
+             </div> 
+  
+    
+    
+     <!-- Play Store--> 
+             <div class="container-fluid" id="play_store">
+               <div class="row" style="margin-top: 70px;">
+                  <div class="col-sm-4">
+                     <i class="fab fa-apple"></i><br>
+                       <h3>Download on the
+                        App Store
+                     </h3>
+                      
+                  </div>
+                   <div class="col-sm-4">
+                           <i class="fab fa-google-play"></i><br>
+                       <h3>Get it on Google play
+                     </h3> 
+                    
+                  </div>
+                   <div class="col-sm-4">
+                        <i class="fab fa-amazon"></i><br>
+                       <h3>Works with Amazon alexa
+                     </h3>  
+                  </div>
+                   
+               </div>  
+             </div>
+             <br> 
+    
+   
+       
+      <!-- Footer -->
+      <div class="container-fluid footer">
+        <br><br>
+         <div class="container footer_one">
+            <div class="row">
+               <div class="col-sm-3" id=" ">
+                   <h3>Blinkist</h3>
+                         <h4>small packages</h4>
+                          <h4>Start learning now </h4>
+               </div>
+               
+                <div class="col-sm-3" id="">
+                    <h3>Editorial </h3>
+                    <a href="#"><P>Book lists</P></a>
+                     <a href="#"><P>What is Nonfiction?</P></a>
+                     <a href="#"><p>What to Read Next</p></a>
+                     <a href="#"><p>Benefits of Reading</p></a>
+                 </div>
+               
+                <div class="col-sm-3" id="">
+                    <h3>Useful Links </h3>
+                    <a href="#"><P>Pricing</P></a>
+                     <a href="#"><P>Pricing for Teams</P></a>
+                     <a href="#"><p>Gift Cards</p></a>
+                     <a href="#"><p>Blinkist Magazine</p></a>
+                     <a href="#"><p>Contact & Help</p></a>
+               </div>
+               
+                <div class="col-sm-3" id="">
+                    <h3>Company </h3>
+                    <a href="#"><P>About</P></a>
+                    <a href="#"><P>Careers</P></a>
+                    <a href="#"><P>Partners</P></a>
+                    
+               </div>
+            </div>
+         </div>  
+      </div>
+     <div class="container-fluid footer_two" style="text-align: center;background-color: #0000b3;color: white;">
+         <p> &copy; Blinkist 2020</p>  
+     </div>
+     
+    
+</body>
+</html>
